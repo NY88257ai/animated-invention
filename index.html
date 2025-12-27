@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Andrea's Salumeria - Fine Italian deli & grocer in Jersey City since 1975. Homemade mozzarella, classic Italian sandwiches, imported specialties & catering.">
+  <meta name="keywords" content="Italian deli Jersey City, homemade mozzarella, Italian sandwiches, salumeria, Italian grocery, catering, Andrea's">
+  <meta name="author" content="Andrea's Salumeria">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Andrea's Salumeria | Fine Italian Deli & Grocer">
+  <meta property="og:description" content="Family-owned Italian deli serving Jersey City since 1975. Homemade mozzarella, famous sandwiches & imported specialties.">
+  <meta property="og:image" content="photos/hero/hero1.jpg">
+  <meta property="og:url" content="https://yourusername.github.io/andreas-salumeria/">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Andrea's Salumeria | Fine Italian Deli">
+  <meta name="twitter:description" content="Family-owned Italian deli since 1975">
+  <meta name="twitter:image" content="photos/hero/hero1.jpg">
+  
+  <title>Andrea's Salumeria | Fine Italian Deli & Grocer Since 1975</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="photos/logo/andreas-header-light.png">
+  <link rel="apple-touch-icon" href="photos/logo/andreas-header-light.png">
+  
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Andrea's Salumeria",
+    "description": "Fine Italian deli and grocer serving Jersey City since 1975",
+    "image": "photos/hero/hero1.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "247 Central Ave #A",
+      "addressLocality": "Jersey City",
+      "addressRegion": "NJ",
+      "postalCode": "07307",
+      "addressCountry": "US"
+    },
+    "telephone": "(201) 653-1666",
+    "servesCuisine": "Italian",
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ],
+    "url": "https://yourusername.github.io/andreas-salumeria/",
+    "foundingDate": "1975"
+  }
+  </script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home">
+      <img id="site-logo" src="photos/logo/andreas-header-light.png" alt="Andrea's Salumeria Logo">
+    </a>
+    
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#sandwiches">Sandwiches</a>
+      <a href="#deli-counter">Deli Counter</a>
+      <a href="#salads-soups">Salads & Soups</a>
+      <a href="#grocery">Grocery</a>
+      <a href="#about">Our Story</a>
+      <a href="#visit">Visit</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO SLIDESHOW -->
+<section id="home" class="hero">
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background-image: url('photos/hero/hero1.jpg')"></div>
+    <div class="hero-slide" style="background-image: url('photos/hero/hero2.jpg')"></div>
+    <div class="hero-slide" style="background-image: url('photos/hero/hero3.jpg')"></div>
+    <div class="hero-slide" style="background-image: url('photos/hero/hero4.jpg')"></div>
+    <div class="hero-slide" style="background-image: url('photos/hero/hero5.jpg')"></div>
+    <div class="hero-slide" style="background-image: url('photos/hero/herotray1.jpg')"></div>
+    <div class="hero-slide" style="background-image: url('photos/hero/prosciuttodiparma.jpg')"></div>
+    <div class="hero-slide" style="background-image: url('photos/hero/wassup.jpg')"></div>
+  </div>
+  <div class="hero-overlay">
+    <h1>Andrea's Salumeria</h1>
+    <p>Fine Italian Deli & Grocer • Since 1975</p>
+  </div>
+</section>
+
+<!-- TODAY'S SPECIALS -->
+<section id="todays-specials">
+  <div class="container">
+    <h2>Today's Specials</h2>
+    <p class="section-intro">Fresh from the kitchen — updated daily.</p>
+    
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">Special of the Day</h3>
+        <span class="card-tag">Fresh • Limited</span>
+      </div>
+      <div class="card-body">
+        <strong>Homemade Chicken Cutlet Sandwich</strong><br>
+        Served with roasted peppers, fresh mozzarella, and balsamic drizzle.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOUP OF THE DAY -->
+<section id="soup-of-the-day">
+  <div class="container">
+    <h2>Soup of the Day</h2>
+    <p class="section-intro">Homemade soups prepared fresh — perfect for chilly days.</p>
+    
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">Today's Soup</h3>
+        <span class="card-tag">Hot • Fresh</span>
+      </div>
+      <div class="card-body">
+        <strong>Pasta Fagioli</strong><br>
+        A hearty Italian classic made with love.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SANDWICHES -->
+<section id="sandwiches">
+  <div class="container">
+    <h2>Andrea's Famous Sandwiches</h2>
+    <p class="section-intro">
+      All sandwiches are freshly made on your choice of Italian bread or rolls. Customize with fresh lettuce, ripe tomato,
+      crisp onion, and our signature oil & vinegar.
+    </p>
+
+    <div class="menu-section">
+      <div class="menu-section-header">
+        <h3 class="menu-section-title">Classic Cuts</h3>
+        <p class="menu-section-subtitle">
+          Timeless deli favorites, simply delicious and made to order.
+        </p>
+      </div>
+      <div class="menu-columns">
+        <div>
+          <ul class="menu-items">
+            <li><span class="menu-item-name">Ham & Cheese</span></li>
+            <li><span class="menu-item-name">Turkey & Cheese</span></li>
+            <li><span class="menu-item-name">Roast Beef & Cheese</span></li>
+            <li><span class="menu-item-name">Bologna & Cheese</span></li>
+            <li><span class="menu-item-name">Liverwurst</span></li>
+            <li><span class="menu-item-name">Egg Salad</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-section-header">
+        <h3 class="menu-section-title">Italian Heroes</h3>
+        <p class="menu-section-subtitle">
+          Packed with authentic Italian flavors for a true hero experience.
+        </p>
+      </div>
+      <div class="menu-columns">
+        <div>
+          <ul class="menu-items">
+            <li><span class="menu-item-name">Genoa Salami & Cheese</span></li>
+            <li><span class="menu-item-name">Cappicola, Salami & Cheese</span></li>
+            <li><span class="menu-item-name">Prosciuttini & Cheese</span></li>
+            <li><span class="menu-item-name">Sopresata, Fresh Mozzarella & Roasted Peppers</span></li>
+            <li><span class="menu-item-name">Pancetta, Mozzarella & Roasted Peppers</span></li>
+            <li><span class="menu-item-name">Parmigiano, Provolone & Prosciutto</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-section-header">
+        <h3 class="menu-section-title">Combination Favorites</h3>
+        <p class="menu-section-subtitle">
+          Expertly crafted pairings for a perfect blend of tastes.
+        </p>
+      </div>
+      <div class="menu-columns">
+        <div>
+          <ul class="menu-items">
+            <li><span class="menu-item-name">Turkey, Roast Beef & Cheese</span></li>
+            <li><span class="menu-item-name">Roast Beef, Salami & Cheese</span></li>
+            <li><span class="menu-item-name">Turkey, Salami & Cheese</span></li>
+            <li><span class="menu-item-name">Italian Combo</span></li>
+            <li>
+              <span class="menu-item-name">Dry Sausage & Sopresata Sticks</span>
+              <div class="menu-item-desc">Hot or sweet</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-section-header">
+        <h3 class="menu-section-title">Daily Sandwich Specials</h3>
+        <p class="menu-section-subtitle">
+          Unique and flavorful creations from our kitchen, made fresh every day.
+        </p>
+      </div>
+      <div class="menu-columns">
+        <div>
+          <ul class="menu-items">
+            <li>
+              <span class="menu-item-name">The Combo</span>
+              <div class="menu-item-desc">
+                Ham, Salami, Sopresata, Cappicola, Mozzarella, Sharp Provolone, Sweet Peppers
+              </div>
+            </li>
+            <li>
+              <span class="menu-item-name">The Soprano</span>
+              <div class="menu-item-desc">
+                Sopresata, Prosciutto, Mozzarella, Sundry Tomatoes, Extra Virgin Olive Oil
+              </div>
+            </li>
+            <li>
+              <span class="menu-item-name">What's Up</span>
+              <div class="menu-item-desc">
+                Ham Cappicola, Hot Sopresata, Hot Cappicola, Mozzarella, Sharp Provolone, Hot Peppers
+              </div>
+            </li>
+            <li>
+              <span class="menu-item-name">Italian Tuna</span>
+              <div class="menu-item-desc">
+                Tuna with lettuce, tomatoes, olive oil & wine vinegar
+              </div>
+            </li>
+            <li>
+              <span class="menu-item-name">Pete's Special Tuna</span>
+              <div class="menu-item-desc">
+                Tuna mixed with mayo, lettuce, peppers, salt, black pepper, oregano, olive oil, vinegar,
+                topped with fresh tomatoes
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="menu-note">
+        All sandwiches can be customized with lettuce, tomato, onion, and our signature oil & vinegar.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- DELI COUNTER -->
+<section id="deli-counter">
+  <div class="container">
+    <h2>Deli Counter</h2>
+    <p class="section-intro">
+      Our fine selection of fresh deli meats and artisanal cheeses, sliced to order and ready for sandwiches,
+      platters, or to take home.
+    </p>
+
+    <div class="two-col">
+      <div>
+        <div class="menu-section-header">
+          <h3 class="menu-section-title">Fine Deli Meats</h3>
+        </div>
+        <ul class="menu-items">
+          <li>Bologna (large or small)</li>
+          <li>Boar's Head Ham</li>
+          <li>Buffalo Chicken Breast</li>
+          <li>Cacciatori</li>
+          <li>Cappicola (Hot or Sweet)</li>
+          <li>Genoa Salami</li>
+          <li>Ham Cappicola</li>
+          <li>Hard Salami</li>
+          <li>Honey Maple Ham</li>
+          <li>Honey Turkey</li>
+          <li>Liverwurst</li>
+          <li>Mortadella</li>
+          <li>Pancetta</li>
+          <li>Pepperoni</li>
+          <li>Peppermill Turkey</li>
+          <li>Prosciutto Di Parma (imported)</li>
+          <li>Prosciutto San Danielle</li>
+          <li>Prosciuttini</li>
+          <li>Prosciutto and Mozzarella Swirl</li>
+          <li>Roast Beef</li>
+          <li>Roasted Turkey Breast</li>
+          <li>Smoked Turkey</li>
+          <li>Sopresata (Hot or Sweet)</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="menu-section-header">
+          <h3 class="menu-section-title">Artisan Cheeses</h3>
+        </div>
+        <ul class="menu-items">
+          <li>Alpine Lace (low sodium)</li>
+          <li>Baby Swiss</li>
+          <li>Domestic Slicing Provolone</li>
+          <li>Finlandia Swiss</li>
+          <li>Gorgonzola Cheese</li>
+          <li>Home Made Mozzarella</li>
+          <li>Imp. Crotonese (Table Cheese)</li>
+          <li>Imported Sharp Provolone</li>
+          <li>Land O Lakes (Yellow and White American)</li>
+          <li>Lorraine Swiss (low sodium)</li>
+          <li>Muenster</li>
+          <li>Parmigiano Reggiano (aged 2yrs)</li>
+          <li>Ricotta Salata (for grating)</li>
+          <li>Ricotta Salata (Table Cheese)</li>
+          <li>Genuine Romano Cheese</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SALADS & SOUPS -->
+<section id="salads-soups">
+  <div class="container">
+    <h2>Salads & Soups</h2>
+    <p class="section-intro">
+      Fresh salads and homemade soups, perfect on their own or alongside your favorite sandwich.
+    </p>
+
+    <div class="menu-section">
+      <div class="menu-section-header">
+        <h3 class="menu-section-title">Fresh Salads</h3>
+        <p class="menu-section-subtitle">
+          Crisp and delicious, prepared fresh daily.
+        </p>
+      </div>
+      <div class="menu-columns">
+        <div>
+          <ul class="menu-items">
+            <li>
+              <span class="menu-item-name">Chef Salad</span>
+              <div class="menu-item-desc">Ham, Salami, Mild Provolone or Mozzarella</div>
+            </li>
+            <li>
+              <span class="menu-item-name">Tuna Chef</span>
+              <div class="menu-item-desc">Tuna, lettuce, tomatoes, and peppers</div>
+            </li>
+            <li>
+              <span class="menu-item-name">Tossed</span>
+              <div class="menu-item-desc">Lettuce, tomatoes, and peppers</div>
+            </li>
+            <li>
+              <span class="menu-item-name">Mozzarella Salad</span>
+              <div class="menu-item-desc">Mozzarella and fresh tomatoes</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-section-header">
+        <h3 class="menu-section-title">Pasta Salads</h3>
+      </div>
+      <div class="menu-columns">
+        <div>
+          <ul class="menu-items">
+            <li><span class="menu-item-name">Tuna Pasta</span></li>
+            <li><span class="menu-item-name">Cold Cut Pasta</span></li>
+            <li><span class="menu-item-name">Vegetable Pasta</span></li>
+            <li>
+              <span class="menu-item-name">Mediterranean Pesto Salad</span>
+              <div class="menu-item-desc">Summer only</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-section-header">
+        <h3 class="menu-section-title">Hot Soups</h3>
+        <p class="menu-section-subtitle">
+          Served September through May, plus a Friday pasta dish offered all year.
+        </p>
+      </div>
+      <div class="menu-columns">
+        <div>
+          <ul class="menu-items">
+            <li><span class="menu-item-name">Monday</span> — Pasta Fagioli</li>
+            <li><span class="menu-item-name">Tuesday</span> — Chicken Noodle</li>
+            <li><span class="menu-item-name">Wednesday</span> — Minestrone</li>
+            <li><span class="menu-item-name">Thursday</span> — Lentil and Pasta</li>
+            <li>
+              <span class="menu-item-name">Friday Pasta Dish (all year)</span>
+              <div class="menu-item-desc">
+                Zitti in a plum tomato sauce Filetto Di Pomodoro with straw mushrooms and prosciutto
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GROCERY & SPECIALTY -->
+<section id="grocery">
+  <div class="container">
+    <h2>Grocery & Specialty Items</h2>
+    <p class="section-intro">
+      Discover unique Italian imports, house‑made delicacies, and sweet treats — perfect for everyday meals or special occasions.
+    </p>
+
+    <div class="menu-section">
+      <div class="menu-section-header">
+        <h3 class="menu-section-title">Specialty & Grocery Items</h3>
+      </div>
+      <div class="menu-columns">
+        <div>
+          <ul class="menu-items">
+            <li>Dry Sausage Sticks (hot or sweet)</li>
+            <li>Dry Sopresata Sticks (hot or sweet)</li>
+            <li>Imported Italian Pastas</li>
+            <li>Truffle Products</li>
+            <li>Marinated Olives, Peppers & Tomatoes</li>
+            <li>Eajiär Products</li>
+            <li>Macinated Olives</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="menu-category-title">Sweet Treats</h4>
+          <ul class="menu-items">
+            <li>
+              <span class="menu-item-name">Cannoli</span>
+              <div class="menu-item-desc">Small & large, stuffed fresh to order</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-section-header">
+        <h3 class="menu-section-title">Catering Services</h3>
+      </div>
+      <p class="section-intro">
+        From casual gatherings to elegant events, Andrea's Salumeria offers catering tailored to your needs.
+        Please inquire in‑store or by phone for details and menu options.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <h2>Our Story</h2>
+    <div class="about-grid">
+      <div>
+        <div class="about-accent">Family‑owned & operated • Since 1975</div>
+        <div class="about-text">
+          <p>
+            Welcome to Andrea's Salumeria, a cherished family‑owned and operated business proudly serving our
+            community since 1975. For nearly five decades, we have been dedicated to providing authentic Italian
+            deli meats, cheeses, and specialties, upholding a tradition of quality and passion passed down
+            through generations.
+          </p>
+          <p>
+            From our homemade mozzarella and famous sandwiches to imported Italian groceries and catering,
+            every product reflects our commitment to genuine flavor and warm hospitality. Whether you're
+            grabbing a quick bite, picking up ingredients for Sunday dinner, or planning a celebration,
+            Andrea's Salumeria is here to share our family's love for exceptional food with you.
+          </p>
+        </div>
+      </div>
+
+      <aside class="about-card">
+        <h3 class="menu-section-title">What Makes Andrea's Special</h3>
+        <ul class="menu-items mt-small">
+          <li>Nearly 50 years serving our neighborhood</li>
+          <li>Homemade mozzarella crafted in‑house</li>
+          <li>Classic Italian sandwiches and daily specials</li>
+          <li>Fine deli meats, cheeses, and imported groceries</li>
+          <li>Catering available for gatherings and events</li>
+        </ul>
+        <div class="about-meta">
+          Step inside and experience the feel of a traditional Italian salumeria — no shortcuts, just real food.
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section id="visit" class="visit-section">
+  <div class="container">
+    <h2>Visit Andrea's Salumeria</h2>
+    <p class="section-intro">
+      Stop by for a sandwich, pick up deli meats and cheeses, or explore our shelves of Italian specialties.
+    </p>
+
+    <div class="info-grid">
+      <div>
+        <div class="info-label">Address</div>
+        <div class="info-value visit-address">
+          Andrea's Salumeria<br>
+          247 Central Ave #A<br>
+          Jersey City, NJ 07307
+        </div>
+
+        <div class="info-label mt-med">Phone</div>
+        <div class="info-value contact-phone">
+          <a href="tel:+12016531666">(201) 653‑1666</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="info-label">Hours</div>
+        <div class="info-value visit-hours">
+          Monday – Friday: 8:00 AM – 6:00 PM<br>
+          Saturday: 8:00 AM – 5:00 PM<br>
+          Sunday: Closed
+        </div>
+        
+        <div class="info-label mt-med">Services</div>
+        <div class="info-value">
+          Takeout, catering, and Italian grocery shopping.
+        </div>
+      </div>
+
+      <div>
+        <div class="info-label">Connect With Us</div>
+        <div class="social-icons">
+          <a class="social-icon" href="https://www.instagram.com/andreas_247central/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" ry="5" fill="none" stroke="#7b1b1b" stroke-width="1.6"/>
+              <circle cx="12" cy="12" r="4.2" fill="none" stroke="#7b1b1b" stroke-width="1.6"/>
+              <circle cx="17.2" cy="6.8" r="1.1" fill="#7b1b1b"/>
+            </svg>
+          </a>
+
+          <a class="social-icon" href="https://www.facebook.com/search/top?q=andrea%20salumeria" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" fill="none" stroke="#3b5998" stroke-width="1.6"/>
+              <path d="M13 8h1.5V6H13c-2 0-3.5 1.3-3.5 3.6V11H8v2h1.5v5h2v-5h1.8l0.7-2H11.5v-1.3C11.5 8.7 12 8 13 8z" fill="#3b5998"/>
+            </svg>
+          </a>
+
+          <a class="social-icon" href="https://www.yelp.com/biz/andrea-salumeria-jersey-city" target="_blank" rel="noopener noreferrer" aria-label="Yelp">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" fill="none" stroke="#af0606" stroke-width="1.6"/>
+              <path d="M9.2 5.3c-.2-.8.4-1.5 1.2-1.6l.6-.1c.7-.1 1.4.4 1.5 1.1l.6 4c.1.7-.4 1.3-1.1 1.4l-.3 0c-.5.1-1-.2-1.2-.7L9.2 5.3zM7 9.7l-3.3-.8C3 8.8 2.6 9 2.4 9.4l-.2.6c-.2.7.2 1.4.9 1.6l3.7 1c.6.2 1.3-.2 1.5-.8.1-.4 0-.9-.4-1.2L7 9.7zm2.1 3.3l-2.1 3c-.4.6-.2 1.4.4 1.8l.5.3c.6.3 1.4.1 1.8-.5l1.9-3.1c.3-.6.1-1.3-.5-1.7-.5-.3-1.2-.2-1.6.2zM13.6 13.8l1.1 3.5c.2.7.9 1.1 1.6.9l.6-.2c.7-.2 1.1-.9 1-1.6l-1-4c-.2-.7-.9-1.1-1.6-.9-.7.2-1.1.9-1 1.6zM15.2 10.4l2.9-2.5c.5-.4.6-1.2.2-1.7l-.4-.5c-.5-.6-1.3-.6-1.8-.1l-2.5 2.7c-.5.5-.4 1.3.1 1.8.4.4 1.1.4 1.5.1z" fill="#af0606"/>
+            </svg>
+          </a>
+
+          <a class="social-icon" href="https://www.google.com/maps/place/Andrea+Salumeria/@40.748652,-74.051889,15z" target="_blank" rel="noopener noreferrer" aria-label="Google Maps">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2.5c-3.1 0-5.5 2.4-5.5 5.6 0 3.8 3.4 7.9 5 9.7.3.3.8.3 1.1 0 1.6-1.8 5-5.9 5-9.7 0-3.2-2.4-5.6-5.6-5.6z" fill="none" stroke="#4285f4" stroke-width="1.6"/>
+              <circle cx="12" cy="8.1" r="2.2" fill="#4285f4"/>
+            </svg>
+          </a>
+        </div>
+
+        <button class="review-btn" onclick="openGoogleReview()" aria-label="Leave a review on Google">
+          ★ Leave a Review on Google
+        </button>
+      </div>
+    </div>
+
+    <div class="map-wrapper mt-med">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.040028179708!2d-74.051889!3d40.748652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c257f7f1f3c4d1%3A0x61689fe0e35ef8a5!2sAndrea%20Salumeria!5e0!3m2!1sen!2sus!4v1700000000000"
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Andrea's Salumeria Location Map">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="container">
+    <h2>From the Counter & Kitchen</h2>
+    <p class="section-intro">
+      A glimpse of the sandwiches, specialties, and moments that make Andrea's Salumeria a neighborhood favorite.
+    </p>
+
+    <div id="gallery-grid" class="gallery-grid">
+      <!-- Gallery items are injected by JavaScript -->
+    </div>
+  </div>
+</section>
+
+<!-- COMING SOON -->
+<section id="coming-soon">
+  <div class="container">
+    <h2>Coming Soon: Andrea's Apparel</h2>
+    <p class="section-intro">
+      Show your love for Andrea's Salumeria with exclusive merch — shirts, hats, hoodies, and more.
+    </p>
+
+    <div class="card">
+      <div class="card-body">
+        We're designing a line of apparel inspired by our 50-year heritage. 
+        Stay tuned for launch details and pre-order information.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <h3>Andrea's Salumeria</h3>
+    <div class="footer-subtitle">Fine Italian Deli & Grocer • Since 1975</div>
+    
+    <nav class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#sandwiches">Menu</a>
+      <a href="#about">Our Story</a>
+      <a href="#visit">Visit</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+    
+    <div class="footer-copy">
+      © <span id="year"></span> Andrea's Salumeria. All rights reserved.<br>
+      Homemade Mozzarella • Famous Italian Sandwiches • Imported Specialties
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+
+</body>
+</html>
